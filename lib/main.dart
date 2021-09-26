@@ -26,10 +26,10 @@ class MagicBall extends StatefulWidget {
 }
 
 class _MagicBallState extends State<MagicBall> {
-  int ballNumber = 0;
+  int ballNumber = 1;
   void randomball() {
     setState(() {
-      ballNumber = Random().nextInt(4) + 1;
+      ballNumber = Random().nextInt(5) + 1;
     });
   }
 
